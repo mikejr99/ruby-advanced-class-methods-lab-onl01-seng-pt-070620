@@ -24,6 +24,10 @@ class Song
     song.name = new_name 
     song 
   end
-  def 
+  def self.find_by_name
+    
+    
+    
+  end
 
 end
