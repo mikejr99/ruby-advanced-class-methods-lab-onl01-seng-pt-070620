@@ -24,9 +24,8 @@ class Song
     song.name = new_name 
     song 
   end
-  def self.find_by_name
-    
-    
+  def self.find_by_name(name_check)
+    self.all.find {|
     
   end
 
