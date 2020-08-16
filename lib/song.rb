@@ -39,9 +39,9 @@ class Song
       artist = artist_title[0]
       title = artist_title[1]
       
-      new_song = self.create
+      song = self.create
       song.name = song_name
       song.artist_name = artist
-      new_song
+      song
   end 
 end
