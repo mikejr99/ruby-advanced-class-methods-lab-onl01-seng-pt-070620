@@ -28,5 +28,9 @@ class Song
     self.all.find {|song| song.name == name_check} 
     
   end
+  def self.find_or_create_by_name(new_name)
+    if self.all[new_name]
+      
+  end
 
 end
